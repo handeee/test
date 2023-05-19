@@ -1,0 +1,23 @@
+/*başlık kısımları anasayfa fln*/
+#b{
+    /*color: azure;*/
+    color:lavenderblush;
+  }
+                                      /*PROJELER KISMI*/
+  /*proje durumu devam eden şu an */
+#p{
+    text-decoration:none;
+    color:black;
+    
+  }
+/*yapıların karartılması üzerine gidince*/
+ /* .photo-container:hover img {
+    opacity:0.5; beyaz olarak karartıyo
+  }*/
+  .photo-container img:hover {
+    filter: brightness(0.5) contrast(1.2) saturate(1.2) opacity(0.7);
+    /*transition: filter 0.5s ease-in-out;*//*bu daha etraftan gelip ortaya topluyo gibi*/
+    transition-duration:infinite;/*bu net görüntü üsttekine göre bir tık iyi*/
+
+  }
+  

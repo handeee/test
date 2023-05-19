@@ -1,0 +1,48 @@
+ /*başlık kısımları anasayfa fln*/
+.b{
+    color: azure;
+    
+  }                                
+                                 
+                                 
+                                 /*GİRİŞ SAYFASI*/
+/*tüm arka tabanı resimle kaplama*/
+body {
+    background-image: url("https://lh3.googleusercontent.com/ELCioxUkXuGp_6MtV36TTjP07grNpn3GIqj-G4oisFrbJmw4chVsaA6uVfbfCNIxyazXztuiyBxRlUkxw6sGrumwgCaNUQ=-rw-w354-rw");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+  }
+  
+
+                                   /*NAVBAR KISMI*/
+   /*#b{
+     color:azure !important;
+     text-decoration: none;
+
+    }*/
+    .navbar-nav a {
+      color: #fff !important;
+    }
+   
+    .d{
+       /* background-color:aliceblue;*/
+        /*background-color: transparent;burası sayesinde navbar üstte göründü*/
+        /*z-index: 1;*/
+        filter: brightness(0) contrast(1.4) saturate(1.6) opacity(0.3);
+       /* transition: filter 0.5s ease-in-out;*/
+        transition-duration:infinite;
+       /* aşağısı navbar ı yukarıya sıfır yapmak için body margin 0 olmalı bide div olmazsa olmuyo */
+        position: fixed;
+        top: 0;
+       left: 0;
+       width: 100%;
+       padding: 0;
+       margin: 0;
+       height: 95px;
+       
+      bottom: 0;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+      }
+      
