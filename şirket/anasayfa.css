@@ -1,6 +1,6 @@
  /*başlık kısımları anasayfa fln*/
-.b{
-    color: azure;
+nav .b{
+    color:black;
     
   }                                
                                  
@@ -45,4 +45,4 @@ body {
     
     background-color: rgba(0, 0, 0, 0.5);
       }
-      
+     
